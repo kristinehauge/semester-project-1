@@ -1,0 +1,33 @@
+:root {
+  --primary-color-100: #face68 rgb(250, 206, 104, 1);
+  --primary-color-75: rgb(250, 206, 104, 0.75);
+  --primary-color-50: rgb(250, 206, 104, 0.5);
+  --primary-color-25: rgb(250, 206, 104, 0.25);
+  --primary-color-border: #d6b15a rgb(214, 177, 90, 1);
+  --secondary-color-100: #5a9cb5 rgb(90, 156, 181, 1);
+  --secondary-color-75: rgb(90, 156, 181, 0.75);
+  --secondary-color-50: rgb(90, 156, 181, 0.5);
+  --secondary-color-25: rgb(90, 156, 181, 0.25);
+  --secondary-color-cta-text: #345b69 rgb(52, 91, 105);
+  --secondary-color-shadow: #202740 rgb(32, 55, 64, 1);
+  --secondary-color-overlay: rgb(32, 55, 64, 0.2);
+  --background-color: #fafafa rgb(250, 250, 250);
+  --light-text-color: #fbfbfb rgb(251, 251, 251);
+  --text-icon-color: #171717 rgb(23, 23, 23);
+  --gray-color: #495057 rgb(73, 80, 87);
+  --font-main: "Barlow Condensed", sans-serif;
+  --font-heading: "Sansita", sans-serif;
+  --font-body: "Barlow", sans-serif;
+  --font-size-base: 16px;
+  --font-weight-light: 300;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+  --font-weight-black: 900;
+  --letter-spacing-5: 5%;
+  --letter-spacing-10: 10%;
+  --letter-spacing-15: 15%;
+  --letter-spacing-20: 20%;
+  --letter-spacing-25: 25%;
+}
