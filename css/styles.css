@@ -4,3 +4,8 @@ h1 {
   font-family: var(--font-heading);
   letter-spacing: var(--letter-spacing-20);
 }
+
+.logo {
+  width: 90px;
+  height: 90px;
+}
