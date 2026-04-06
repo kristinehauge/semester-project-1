@@ -120,7 +120,7 @@ h1 {
   color: var(--primary-color-100);
   text-shadow: 1px 2px 2px var(--secondary-color-shadow);
   text-transform: uppercase;
-  background-image: url(/assets/5c786ec9-3ad6-44db-b919-ba79a905b6be.jpg);
+  background-image: url(../assets/5c786ec9-3ad6-44db-b919-ba79a905b6be.jpg);
   max-width: 1000px;
   margin: 0 auto;
 }
