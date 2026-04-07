@@ -166,3 +166,11 @@ h1 {
 .hero span {
   font-weight: var(--font-weight-bold);
 }
+
+.event h1 {
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing-20);
+  font-weight: var(--font-weight-extrabold);
+  text-align: center;
+  padding: 40px 40px;
+}
