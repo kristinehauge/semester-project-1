@@ -52,6 +52,18 @@ img {
   width: 100%;
 }
 
+/* ------------------ Links ------------------ */
+
+.cta-large {
+  background-color: var(--primary-color-100);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 1px solid var(--background-color);
+}
+
 /* ------------------ Header ------------------ */
 
 header {
