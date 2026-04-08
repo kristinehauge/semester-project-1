@@ -11,6 +11,12 @@ body {
   margin: 0;
   background-color: var(--background-color);
   font-family: var(--font-main);
+  color: var(--text-icon-color);
+}
+
+p {
+  font-weight: var(--font-weight-light);
+  font-family: var(--font-body);
 }
 
 :root {
@@ -62,6 +68,32 @@ img {
   justify-content: center;
   padding: 10px;
   border: 1px solid var(--background-color);
+}
+
+.cta {
+  background-color: var(--primary-color-75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--primary-color-border);
+  text-transform: uppercase;
+  width: 140px;
+  height: 35px;
+}
+
+.cta:hover {
+  background-color: var(--primary-color-100);
+  border: 1px solid var(--primary-color-100);
+  width: 145px;
+  height: 40px;
+}
+
+.cta a {
+  text-decoration: none;
+  color: var(--secondary-color-cta-text);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-5);
+  font-size: 1.2rem;
 }
 
 /* ------------------ Header ------------------ */
@@ -167,10 +199,63 @@ h1 {
   font-weight: var(--font-weight-bold);
 }
 
+/* --- Event --- */
 .event h1 {
   text-transform: uppercase;
   letter-spacing: var(--letter-spacing-20);
   font-weight: var(--font-weight-extrabold);
   text-align: center;
   padding: 40px 40px;
+}
+
+.card {
+  background-color: var(--secondary-color-25);
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+  margin: 50px auto;
+}
+
+.card:hover {
+  background-color: var(--secondary-color-75);
+  padding: 10px;
+}
+
+.card:hover .cta {
+  background-color: var(--primary-color-100);
+}
+
+.card h2 {
+  font-weight: var(--font-weight-medium);
+  font-size: 1.5rem;
+}
+
+.card h2,
+p {
+  padding: 0 20px;
+  letter-spacing: var(--letter-spacing-5);
+}
+
+.card .cta {
+  margin: 20px auto;
+}
+
+.card .card__img {
+  display: block;
+  aspect-ratio: 4/3;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img__space {
+  background-image: url(../assets/andrew-ruiz-348421.jpg);
+}
+
+.img__mammoth {
+  background-image: url(../assets/roberto-nickson-396152.jpg);
+  background-position: 50% 70%;
+}
+
+.img__energetica {
+  background-image: url(../assets/william-bout-264826.jpg);
 }
