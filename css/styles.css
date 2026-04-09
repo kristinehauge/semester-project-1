@@ -104,6 +104,12 @@ a {
   border: 1px solid var(--primary-color-100);
 }
 
+.cta-blue:hover {
+  background-color: var(--primary-color-100);
+  border: 2px solid var(--secondary-color-cta-text);
+  color: var(--secondary-color-cta-text);
+}
+
 .cta a {
   color: var(--secondary-color-cta-text);
   font-weight: var(--font-weight-bold);
@@ -125,7 +131,6 @@ a {
   padding: 20px;
   position: relative;
   overflow: hidden;
-  
 }
 
 .nav-card a {
