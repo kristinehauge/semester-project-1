@@ -113,21 +113,41 @@ a {
 
 /* -- Navigation Cards -- */
 .nav-card {
-  height: 500px;
-  display: block;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  border: 2px solid var(--background-color);
+  height: 500px;
+  max-width: 400px;
   margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+  padding: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-card a {
   color: var(--light-text-color);
   font-family: var(--font-heading);
   text-transform: uppercase;
   font-weight: var(--font-weight-bold);
   letter-spacing: var(--letter-spacing-5);
   font-size: 2.5rem;
+  z-index: 1;
 }
 
+.nav-card a::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--secondary-color-overlay);
+  z-index: -1;
+}
 
+.nav-card a:hover::before {
+  background-color: transparent;
+}
 
 .img__exhibition {
   background-image: url(../assets/mavis-cw-164128.jpg);
