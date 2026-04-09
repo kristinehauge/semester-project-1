@@ -84,8 +84,6 @@ img {
 .cta:hover {
   background-color: var(--primary-color-100);
   border: 1px solid var(--primary-color-100);
-  width: 145px;
-  height: 40px;
 }
 
 .cta a {
@@ -200,12 +198,14 @@ h1 {
 }
 
 /* --- Event --- */
-.event h1 {
+.event h2 {
   text-transform: uppercase;
+  font-family: var(--font-heading);
   letter-spacing: var(--letter-spacing-20);
   font-weight: var(--font-weight-extrabold);
+  font-size: 2.8rem;
   text-align: center;
-  padding: 40px 40px;
+  padding: 20px 40px;
 }
 
 .card {
@@ -213,24 +213,24 @@ h1 {
   display: flex;
   flex-direction: column;
   max-width: 420px;
-  margin: 50px auto;
+  margin: 20px auto;
 }
 
 .card:hover {
   background-color: var(--secondary-color-75);
-  /*padding: 20px;*/
+  border: 1px solid var(--secondary-color-100);
 }
 
 .card:hover .cta {
   background-color: var(--primary-color-100);
 }
 
-.card h2 {
+.card h3 {
   font-weight: var(--font-weight-medium);
   font-size: 1.5rem;
 }
 
-.card h2,
+.card h3,
 p {
   padding: 0 20px;
   letter-spacing: var(--letter-spacing-5);
