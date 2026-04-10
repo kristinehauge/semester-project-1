@@ -23,10 +23,10 @@
       /></a>
       <input type="checkbox" id="hamburger-menu" class="hamburger-menu" />
       <label for="hamburger-menu"
-        ><i class="fas fa-bars nav-bar" tabindex="0"></i
+        ><i class="fas fa-bars" tabindex="0"></i
       ></label>
       <nav>
-        <h2>Open today <span>10:00 - 16:00</span></h2>
+        <h2>Open today <span>10:00 - 16 :00</span></h2>
         <ul>
           <li><a href="visit.html" class="" tabindex="0">Visit us</a></li>
           <li><a href="events.html" class="" tabindex="0">Events</a></li>
@@ -46,7 +46,7 @@
           name="q"
         />
         <div>
-          <h2>Follow us</h2>
+          <h3>Follow us</h3>
           <i class="fa-brands fa-instagram"></i>
           <i class="fa-brands fa-facebook"></i>
           <i class="fa-brands fa-tiktok"></i>
@@ -60,9 +60,9 @@
         <h1>Visit us</h1>
         <img src="assets/scott-webb-102825.jpg" alt="" />
       </section>
-      <section>
-        <a href="index.html" tabindex="0">Home /</a>
-        <a href="visit.html">visit us</a>
+      <section class="breadcrumb">
+        <a href="index.html" class="breadcrumb__home" tabindex="0">Home /</a>
+        <a href="visit.html" class="breadcrumb__current">visit us</a>
       </section>
       <article>
         <div>
@@ -148,11 +148,59 @@
           </p>
         </div>
       </article>
-      <div>
-        <a href="visit.html" tabindex="0"
-          >Back to top<i class="fa-solid fa-arrow-up"></i
-        ></a>
-      </div>
+      <a href="index.html" class="back-to-top" tabindex="0"
+        >Back to top<i class="fa-solid fa-arrow-up"></i
+      ></a>
     </main>
+    <footer>
+      <div class="footer-info">
+        <h2>Opening hours</h2>
+        <p>Monday: Closed</p>
+        <p>Tuesday: 10:00 - 16:00</p>
+        <p>Wednesday: 10:00 - 16:00</p>
+        <p>Thursday: 10:00 - 16:00</p>
+        <p>Friday: 10:00 - 19:00</p>
+        <p>Saturday: 9:00 - 16:00</p>
+        <p>Sunday: 9:00 - 13:00</p>
+      </div>
+      <a href="index.html" class="logo" tabindex="0"
+        ><img
+          src="assets/open-science-yellow-logo.webp"
+          class="logo"
+          alt="an atom with a keyhole in the middle"
+      /></a>
+      <div>
+        <h2>Location</h2>
+        <p>Hovedgaten 1</p>
+        <p>5006 Bergen</p>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <p>55 12 34 56</p>
+        <p>contact@csm.com</p>
+      </div>
+      <div class="footer__links">
+        <h2>Quick links</h2>
+        <a href="visit.html" tabindex="0">Visit</a>
+        <a href="explore.html" tabindex="0">Explore</a>
+        <a href="exhibitions.html" tabindex="0">Exhibitions</a>
+        <a href="events.html" tabindex="0">Events</a>
+        <a href="get-involved.html" tabindex="0">Get involved</a>
+      </div>
+      <div class="newsletter col-span-2">
+        <h2>Newsletter</h2>
+        <a href="coming-soon.html" class="cta cta-yellow" tabindex="0"
+          >Sign up</a
+        >
+      </div>
+      <div class="footer__socials col-span-2">
+        <h2 class="row-span-6">Follow us</h2>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </div>
+    </footer>
   </body>
 </html>

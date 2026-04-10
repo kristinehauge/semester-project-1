@@ -118,6 +118,23 @@ a {
   font-size: 1.2rem;
 }
 
+.breadcrumb a {
+  color: var(--text-icon-color);
+  font-size: 0.9rem;
+}
+
+.breadcrumb__home {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-bold);
+  letter-spacing: var(--letter-spacing-15);
+}
+
+.breadcrumb__current {
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-light);
+  letter-spacing: var(--letter-spacing-10);
+}
+
 /* -- Navigation Cards -- */
 .nav-card {
   background-position: center;
@@ -432,3 +449,5 @@ footer .logo {
 .fa-brands {
   font-size: 1.5rem;
 }
+
+/* ------------------------------------ Visit ------------------------------------ */
