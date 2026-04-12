@@ -118,6 +118,12 @@ a {
   font-size: 1.2rem;
 }
 
+.breadcrumb {
+  padding: 5px 5px;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
 .breadcrumb a {
   color: var(--text-icon-color);
   font-size: 0.9rem;
@@ -188,10 +194,11 @@ a {
 
 header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
   height: 100px;
+  padding: 20px;
 }
 
 .hamburger-menu {
@@ -201,7 +208,8 @@ header {
 header nav {
   position: absolute;
   top: 100px;
-  width: 100%;
+  left: 0;
+  right: 0;
   height: 100%;
   z-index: 1000;
   background-color: var(--background-color);
@@ -451,3 +459,55 @@ footer .logo {
 }
 
 /* ------------------------------------ Visit ------------------------------------ */
+.hero__visit {
+  color: var(--light-text-color);
+  text-transform: uppercase;
+  background-image: url(../assets/scott-webb-102825.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 60%;
+  min-height: 60vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 20px;
+}
+
+.hero__visit h1 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-extrabold);
+  letter-spacing: var(--letter-spacing-20);
+  font-size: 3.5em;
+}
+
+article {
+  max-width: 400px;
+  margin: 50px 20px;
+  display: grid;
+  gap: 20px;
+}
+
+article h2 {
+  font-family: var(--font-main);
+  text-transform: uppercase;
+  font-weight: var(--font-weight-medium);
+  letter-spacing: var(--letter-spacing-10);
+  font-size: 1.1em;
+}
+
+article p {
+}
+
+article ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-light);
+}
+
+article span {
+  font-weight: var(--font-weight-medium);
+}
