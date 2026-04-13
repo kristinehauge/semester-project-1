@@ -310,7 +310,7 @@ h1 {
   display: flex;
   flex-direction: column;
   max-width: 420px;
-  margin: 20px auto;
+  margin: 50px auto;
 }
 
 .card:hover {
@@ -473,6 +473,16 @@ footer .logo {
   flex-direction: column;
   justify-content: flex-end;
   padding: 0 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero__visit::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--secondary-color-overlay);
+  z-index: 0;
 }
 
 .hero__visit h1 {
@@ -480,6 +490,7 @@ footer .logo {
   font-weight: var(--font-weight-extrabold);
   letter-spacing: var(--letter-spacing-20);
   font-size: 3.5em;
+  z-index: 1;
 }
 
 article {
@@ -525,4 +536,32 @@ iframe {
 
 .location-link:hover {
   text-decoration: underline;
+}
+
+/* ------------------------------------ Events ------------------------------------ */
+.hero__events {
+  color: var(--light-text-color);
+  text-transform: uppercase;
+  background-image: url(../assets/roberto-nickson-396152.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 60%;
+  min-height: 60vh;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 20px;
+}
+
+.hero__events h1 {
+  font-family: var(--font-heading);
+  font-weight: var(--font-weight-extrabold);
+  letter-spacing: var(--letter-spacing-20);
+  font-size: 3.5em;
+}
+
+.event-page-margin {
+  margin: 75px 0;
 }
