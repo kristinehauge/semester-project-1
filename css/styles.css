@@ -511,3 +511,18 @@ article ul {
 article span {
   font-weight: var(--font-weight-medium);
 }
+
+iframe {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.location-link {
+  color: var(--text-icon-color);
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-light);
+}
+
+.location-link:hover {
+  text-decoration: underline;
+}
