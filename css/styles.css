@@ -254,6 +254,54 @@ nav a:hover {
   color: var(--text-icon-color);
 }
 
+.menu-open-hours {
+  font-family: var(--font-main);
+  text-transform: uppercase;
+  color: var(--primary-color-100);
+  font-size: 1.9em;
+  font-weight: var(--font-weight-semibold);
+}
+
+.menu-open-hours span {
+  font-weight: var(--font-weight-bold);
+}
+
+.search {
+  margin: 50px 0;
+}
+
+.site-search {
+  border: none;
+  font-family: var(--font-body);
+  letter-spacing: var(--letter-spacing-10);
+  width: 200px;
+  color: var(--gray-color);
+  background-color: var(--background-color);
+}
+
+.site-search:focus {
+  outline: none;
+}
+
+button {
+  border: none;
+  background-color: var(--background-color);
+}
+
+hr {
+  width: 240px;
+  margin: 5px 0;
+  color: var(--text-icon-color);
+}
+
+.menu h2 {
+  text-transform: uppercase;
+  font-family: var(--font-body);
+  font-weight: var(--font-weight-medium);
+  font-size: 1.2em;
+}
+
+
 /* ------------------------------------ Homepage ------------------------------------ */
 
 h1 {
@@ -470,13 +518,16 @@ footer .logo {
   justify-self: end;
 }
 
-.footer__socials {
+.socials {
+  display: grid;
+  grid-template-columns: repeat(5, max-content);
+  gap: 10px;
+  width: max-content;
+}
+
+footer .socials {
   justify-self: center;
   text-align: center;
-  display: grid;
-  grid-template-columns: 6 (auto);
-  grid-template-rows: 1fr 1fr;
-  gap: 15px;
 }
 
 .row-span-6 {
