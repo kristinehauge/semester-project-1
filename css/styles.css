@@ -586,3 +586,6 @@ iframe {
 }
 
 /* ------------------------------------ Explore ------------------------------------ */
+.explore__img {
+  background-image: url(../assets/markus-spiske-197281.jpg);
+}
