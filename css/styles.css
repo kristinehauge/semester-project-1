@@ -605,3 +605,13 @@ iframe {
 .get-involved article {
   margin: 50px auto;
 }
+
+/* ------------------------------------ Coming Soon ------------------------------------ */
+.coming-soon h1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: var(--font-main);
+  font-size: 2em;
+  font-weight: var(--font-weight-semibold);
+  margin: 100px 0;
+}
