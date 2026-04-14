@@ -305,6 +305,8 @@ h1 {
   padding: 20px 40px;
 }
 
+/* --- cards ---*/
+
 .card {
   background-color: var(--secondary-color-25);
   display: flex;
@@ -356,6 +358,32 @@ h1 {
 .img__energetica {
   background-image: url(../assets/william-bout-264826.jpg);
 }
+
+.img__planets {
+  background-image: url(../assets/celso-405219.jpg);
+  background-position: center;
+}
+
+.img__skeleton {
+  background-image: url(../assets/mammoth-1257288_1920.jpg);
+}
+
+.img__brain {
+  background-image: url(../assets/jesse-orrico-60373.jpg);
+  background-position: 50% 90%;
+}
+
+.img__robot {
+  background-image: url(../assets/451f1d85-7f74-4606-9352-455b2d663409.webp);
+  background-position: center;
+}
+
+.img__plant {
+  background-image: url(../assets/jennifer-delmarre-IqmuHJF5khU-unsplash\ \(1\).jpg);
+  background-position: center;
+}
+
+
 
 /* --- Star Club --- */
 
