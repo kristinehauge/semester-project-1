@@ -487,10 +487,9 @@ footer .logo {
 }
 
 /* ------------------------------------ Visit ------------------------------------ */
-.hero__visit {
+.page__header {
   color: var(--light-text-color);
   text-transform: uppercase;
-  background-image: url(../assets/scott-webb-102825.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 60%;
@@ -501,11 +500,15 @@ footer .logo {
   flex-direction: column;
   justify-content: flex-end;
   padding: 0 20px;
+}
+
+.visit__img {
+  background-image: url(../assets/scott-webb-102825.jpg);
   position: relative;
   overflow: hidden;
 }
 
-.hero__visit::before {
+.visit__img::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -513,7 +516,7 @@ footer .logo {
   z-index: 0;
 }
 
-.hero__visit h1 {
+.page__header h1 {
   font-family: var(--font-heading);
   font-weight: var(--font-weight-extrabold);
   letter-spacing: var(--letter-spacing-20);
@@ -567,29 +570,19 @@ iframe {
 }
 
 /* ------------------------------------ Events ------------------------------------ */
-.hero__events {
-  color: var(--light-text-color);
-  text-transform: uppercase;
-  background-image: url(../assets/roberto-nickson-396152.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 50% 60%;
-  min-height: 60vh;
-  max-width: 1000px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  padding: 0 20px;
-}
 
-.hero__events h1 {
-  font-family: var(--font-heading);
-  font-weight: var(--font-weight-extrabold);
-  letter-spacing: var(--letter-spacing-20);
-  font-size: 3.5em;
+.event__img {
+  background-image: url(../assets/roberto-nickson-396152.jpg);
 }
 
 .event-page-margin {
   margin: 75px 0;
 }
+
+/* ------------------------------------ Exhibitions ------------------------------------ */
+
+.exhibition__img {
+  background-image: url(../assets/mavis-cw-164128.jpg);
+}
+
+/* ------------------------------------ Explore ------------------------------------ */
