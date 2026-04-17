@@ -13,7 +13,6 @@ body {
   font-family: var(--font-main);
   color: var(--text-icon-color);
 }
-
 p {
   font-weight: var(--font-weight-light);
   font-family: var(--font-body);
@@ -62,6 +61,7 @@ img {
 
 a {
   text-decoration: none;
+  letter-spacing: var(--letter-spacing-5);
 }
 
 /* -- CTA -- */
@@ -94,7 +94,6 @@ a {
   background-color: var(--secondary-color-cta-text);
   color: var(--primary-color-100);
   font-weight: var(--font-weight-semibold);
-  letter-spacing: var(--letter-spacing-5);
   font-size: 1.2rem;
   font-family: var(--font-main);
 }
@@ -114,7 +113,6 @@ a {
 .newsletter a {
   color: var(--secondary-color-cta-text);
   font-weight: var(--font-weight-bold);
-  letter-spacing: var(--letter-spacing-5);
   font-size: 1.2rem;
 }
 
@@ -162,7 +160,6 @@ a {
   font-family: var(--font-heading);
   text-transform: uppercase;
   font-weight: var(--font-weight-bold);
-  letter-spacing: var(--letter-spacing-5);
   font-size: 2.5rem;
   z-index: 1;
   display: flex;
@@ -230,9 +227,7 @@ nav li {
 nav a {
   color: var(--text-icon-color);
   text-transform: uppercase;
-  font-family: var(--font-main);
   font-weight: var(--font-weight-semibold);
-  letter-spacing: var(--letter-spacing-5);
   font-size: 1.4rem;
 }
 
@@ -255,7 +250,6 @@ nav a:hover {
 }
 
 .menu-open-hours {
-  font-family: var(--font-main);
   text-transform: uppercase;
   color: var(--primary-color-100);
   font-size: 1.9em;
@@ -467,7 +461,6 @@ h1 {
   color: var(--text-icon-color);
   text-transform: uppercase;
   font-weight: var(--font-weight-semibold);
-  letter-spacing: var(--letter-spacing-5);
   font-size: 1.5rem;
   gap: 20px;
 }
@@ -569,7 +562,6 @@ footer .socials {
 }
 
 .page__header h1 {
-  font-family: var(--font-heading);
   font-weight: var(--font-weight-extrabold);
   letter-spacing: var(--letter-spacing-20);
   font-size: 3.5em;
@@ -584,14 +576,10 @@ article {
 }
 
 article h2 {
-  font-family: var(--font-main);
   text-transform: uppercase;
   font-weight: var(--font-weight-medium);
   letter-spacing: var(--letter-spacing-10);
   font-size: 1.1em;
-}
-
-article p {
 }
 
 article ul {
