@@ -26,7 +26,7 @@
         ><i class="fas fa-bars" tabindex="0"></i
       ></label>
       <nav>
-        <h2>Open today <span>10:00 - 16 :00</span></h2>
+        <h2 class="menu-open-hours">Open today <span>10:00 - 16 :00</span></h2>
         <ul>
           <li><a href="visit.html" class="" tabindex="0">Visit us</a></li>
           <li><a href="events.html" class="" tabindex="0">Events</a></li>
@@ -38,15 +38,21 @@
             <a href="get-involved.html" class="" tabindex="0">Get Involved</a>
           </li>
         </ul>
-        <input
-          type="search"
-          placeholder="What are you looking for?"
-          id="site-search"
-          class="site-search"
-          name="q"
-        />
-        <div>
-          <h3>Follow us</h3>
+        <div class="search">
+          <input
+            type="search"
+            placeholder="What are you looking for?"
+            id="site-search"
+            class="site-search"
+            name="q"
+          />
+          <button type="button" name="search" tabindex="0">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <hr />
+        </div>
+        <div class="socials menu col-span-2">
+          <h2 class="row-span-6">Follow us!</h2>
           <i class="fa-brands fa-instagram"></i>
           <i class="fa-brands fa-facebook"></i>
           <i class="fa-brands fa-tiktok"></i>
@@ -63,8 +69,8 @@
         <a href="index.html" class="breadcrumb__home" tabindex="0">Home /</a>
         <a href="visit.html" class="breadcrumb__current">visit us</a>
       </section>
-      <article>
-        <div>
+      <section>
+        <article>
           <h2>Opening hours</h2>
           <ul>
             <li>Monday: Closed</li>
@@ -75,8 +81,8 @@
             <li>Saturday: 9:00 - 16:00</li>
             <li>Sunday: 9:00 - 13:00</li>
           </ul>
-        </div>
-        <div>
+        </article>
+        <article>
           <h2>Admission</h2>
           <p>
             The entrance is <span>free</span> for all. There are guided tours of
@@ -87,8 +93,8 @@
             If you would like to organise a guided tour for your group of 6 or
             more people, please contact us to arrange the tour.
           </p>
-        </div>
-        <div>
+        </article>
+        <article>
           <h2>Location</h2>
           <a
             class="location-link"
@@ -106,34 +112,34 @@
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
           ></iframe>
-        </div>
-        <div>
+        </article>
+        <article>
           <h2>Contact</h2>
           <p>55 12 34 56 contact@csm.com</p>
-        </div>
-        <div>
+        </article>
+        <article>
           <h2>Accessibility</h2>
           <p>
             The museum has wheelchair accessibility ramps. It also has audio
             guides and braille display signs for the visually impaired.
           </p>
-        </div>
-        <div>
+        </article>
+        <article>
           <h2>Food & drink</h2>
           <p>
             There is a café attached to the museum where you can get light
             lunches, soft drinks, coffee, snacks and more.
           </p>
-        </div>
-        <div>
+        </article>
+        <article>
           <h2>Shop</h2>
           <p>
             Our shop offers a range of memorabilia from the museum as well as
             great gifts and activity packs that allow you to continue to explore
             science even after you’ve left the museum.
           </p>
-        </div>
-        <div>
+        </article>
+        <article>
           <h2>About Community Science Museum</h2>
           <p>
             Come join us at the Community Science Museum where we're committed
@@ -159,8 +165,8 @@
             dinosaur exhibits - they only come to life at night when everyone's
             gone home).
           </p>
-        </div>
-      </article>
+        </article>
+      </section>
       <a href="visit.html" class="back-to-top" tabindex="0"
         >Back to top<i class="fa-solid fa-arrow-up"></i
       ></a>

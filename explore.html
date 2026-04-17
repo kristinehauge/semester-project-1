@@ -23,10 +23,10 @@
       /></a>
       <input type="checkbox" id="hamburger-menu" class="hamburger-menu" />
       <label for="hamburger-menu"
-        ><i class="fas fa-bars nav-bar" tabindex="0"></i
+        ><i class="fas fa-bars" tabindex="0"></i
       ></label>
       <nav>
-        <h2>Open today <span>10:00 - 16:00</span></h2>
+        <h2 class="menu-open-hours">Open today <span>10:00 - 16 :00</span></h2>
         <ul>
           <li><a href="visit.html" class="" tabindex="0">Visit us</a></li>
           <li><a href="events.html" class="" tabindex="0">Events</a></li>
@@ -38,15 +38,21 @@
             <a href="get-involved.html" class="" tabindex="0">Get Involved</a>
           </li>
         </ul>
-        <input
-          type="search"
-          placeholder="What are you looking for?"
-          id="site-search"
-          class="site-search"
-          name="q"
-        />
-        <div>
-          <h2>Follow us</h2>
+        <div class="search">
+          <input
+            type="search"
+            placeholder="What are you looking for?"
+            id="site-search"
+            class="site-search"
+            name="q"
+          />
+          <button type="button" name="search" tabindex="0">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+          <hr />
+        </div>
+        <div class="socials menu col-span-2">
+          <h2 class="row-span-6">Follow us!</h2>
           <i class="fa-brands fa-instagram"></i>
           <i class="fa-brands fa-facebook"></i>
           <i class="fa-brands fa-tiktok"></i>
@@ -61,7 +67,7 @@
       </section>
       <section class="breadcrumb">
         <a href="index.html" class="breadcrumb__home" tabindex="0">Home /</a>
-        <a href="visit.html" class="breadcrumb__current">visit us</a>
+        <a href="explore.html" class="breadcrumb__current">explore</a>
       </section>
       <article>
         <h2>For kids</h2>
@@ -111,7 +117,7 @@
           country.
         </p>
       </article>
-      <a href="index.html" class="back-to-top" tabindex="0"
+      <a href="explore.html" class="back-to-top" tabindex="0"
         >Back to top<i class="fa-solid fa-arrow-up"></i
       ></a>
     </main>
