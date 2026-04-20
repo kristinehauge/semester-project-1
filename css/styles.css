@@ -77,17 +77,21 @@ a {
 }
 
 .cta {
+  font-family: var(--font-main);
   display: flex;
   justify-content: center;
   align-items: center;
   text-transform: uppercase;
   width: 140px;
   height: 35px;
+  color: var(--secondary-color-cta-text);
+  font-size: 1.2rem;
 }
 
 .cta-yellow {
   background-color: var(--primary-color-75);
   border: 1px solid var(--primary-color-border);
+  font-weight: var(--font-weight-bold);
 }
 
 .cta-blue {
@@ -95,7 +99,6 @@ a {
   color: var(--primary-color-100);
   font-weight: var(--font-weight-semibold);
   font-size: 1.2rem;
-  font-family: var(--font-main);
 }
 
 .cta-yellow:hover {
@@ -107,13 +110,6 @@ a {
   background-color: var(--primary-color-100);
   border: 2px solid var(--secondary-color-cta-text);
   color: var(--secondary-color-cta-text);
-}
-
-.cta a,
-.newsletter a {
-  color: var(--secondary-color-cta-text);
-  font-weight: var(--font-weight-bold);
-  font-size: 1.2rem;
 }
 
 .breadcrumb {
@@ -549,6 +545,7 @@ footer .socials {
 
 .visit__img {
   background-image: url(../assets/scott-webb-102825.jpg);
+  background-position: left;
   position: relative;
   overflow: hidden;
 }
@@ -570,9 +567,16 @@ footer .socials {
 
 article {
   max-width: 400px;
-  margin: 0 auto;
+  margin: 50px 20px;
   display: grid;
-  gap: 20px;
+}
+
+article p {
+  margin: 0.5em 0;
+}
+
+.tight-p {
+  margin: 0.2em 0;
 }
 
 article h2 {
@@ -630,6 +634,10 @@ iframe {
   background-image: url(../assets/markus-spiske-197281.jpg);
 }
 
+article a {
+  display: inline-block;
+  margin: 20px auto 0;
+}
 /* ------------------------------------ Get Involved ------------------------------------ */
 .get-involved__img {
   background-image: url(../assets/scientific-2040795_1280.jpg);
