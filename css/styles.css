@@ -1,4 +1,5 @@
 @import url("variables.css");
+@import url(pages.css);
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap");
 
 /* --------------------------------------- Universal ---------------------------------------*/
@@ -35,15 +36,26 @@ article a {
   margin: 20px auto 0;
 }
 
+article h2 {
+  text-transform: uppercase;
+  font-weight: var(--font-weight-medium);
+  letter-spacing: var(--letter-spacing-10);
+  font-size: 1.1em;
+}
+
 img {
   width: 100%;
+}
+
+h1,
+a {
+  letter-spacing: var(--letter-spacing-5);
 }
 
 /* ------------------------------------ Links ------------------------------------ */
 
 a {
   text-decoration: none;
-  letter-spacing: var(--letter-spacing-5);
 }
 
 /* -- CTA -- */
@@ -277,7 +289,6 @@ hr {
 
 h1 {
   font-family: var(--font-heading);
-  letter-spacing: var(--letter-spacing-5);
 }
 
 .hero {
@@ -463,7 +474,7 @@ footer h2 {
 }
 
 footer p {
-  margin: 0 0;
+  margin: 2px 0;
 }
 
 .footer__links a {
@@ -546,13 +557,6 @@ footer .socials {
 
 .tight-p {
   margin: 0.2em 0;
-}
-
-article h2 {
-  text-transform: uppercase;
-  font-weight: var(--font-weight-medium);
-  letter-spacing: var(--letter-spacing-10);
-  font-size: 1.1em;
 }
 
 article ul {
