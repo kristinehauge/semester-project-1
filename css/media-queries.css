@@ -1,0 +1,24 @@
+@media (min-width: 800px) {
+}
+
+@media (min-width: 1000px) {
+  .hero h1 {
+    font-size: 4em;
+  }
+
+  .hero__nav {
+    display: flex;
+    justify-content: center;
+  }
+
+  .hero__nav a {
+    width: 333.33px;
+  }
+
+  .event {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
