@@ -57,13 +57,13 @@ iframe {
   margin-top: 10px;
 }
 
-.location-link {
+.footer__location-link {
   color: var(--text-icon-color);
   font-family: var(--font-body);
   font-weight: var(--font-weight-light);
 }
 
-.location-link:hover {
+.footer__location-link:hover {
   text-decoration: underline;
 }
 
