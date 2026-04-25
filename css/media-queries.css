@@ -43,6 +43,8 @@ hr {
   margin: 0;
   margin-bottom: 10px;
 }
+
+/* ------ Homepage ------ */
   
   .hero h1 {
     font-size: 4em;
@@ -62,5 +64,37 @@ hr {
     grid-template-columns: 1fr 1fr;
     max-width: 1000px;
     margin: 0 auto;
+  }
+
+  /* ------ Footer ------ */
+  footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 600px;
+    margin: 0 auto;
+    justify-items: center;
+  }
+
+  footer .logo {
+    grid-row-start: 1;
+    grid-column: span 2;
+    justify-self: center;
+  }
+
+  .location {
+    grid-row-start: 2;
+    margin-right: 80px;
+  }
+
+  .contact {
+    grid-row-start: 2;
+  }
+
+  .newsletter {
+    justify-self: center;
+  }
+
+  .footer__links {
+  margin-right: 15px;
   }
 }
