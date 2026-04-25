@@ -2,6 +2,48 @@
 }
 
 @media (min-width: 1000px) {
+  
+  /* ------ Header ------ */
+
+  .header nav {
+    display: flex;
+    position: static;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
+  }
+
+ header nav ul {
+  display: flex;
+  gap: 20px;
+ }
+
+ .menu-open-hours, 
+ .hide, 
+ .hamburger-menu__label {
+  display: none;
+ }
+
+ .fa-magnifying-glass {
+  font-size: 1.4em;
+  padding-bottom: 5px;
+ }
+
+.site-search {
+  width: 100px;
+}
+
+button {
+  border: none;
+  background-color: var(--background-color);
+}
+
+hr {
+  width: 140px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+  
   .hero h1 {
     font-size: 4em;
   }
