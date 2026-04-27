@@ -134,4 +134,21 @@ hr {
 .visit__shop {
   grid-column-start: 1;
 }
+
+/* ------ Get Involved ------ */
+.get-involved__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+  .get-involved__grid article {
+    max-width: 300px;
+  }
+
+  .get-involved__grid article a {
+    align-self: flex-end;
+  }
+}
 }
