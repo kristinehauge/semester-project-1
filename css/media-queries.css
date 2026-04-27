@@ -141,15 +141,26 @@ hr {
   grid-template-columns: repeat(3, 1fr);
   max-width: 1000px;
   margin: 0 auto;
+  column-gap: 30px;
 }
 
   .get-involved__grid article, .explore__grid article {
     max-width: 300px;
+    display: flex;
+    flex-direction: column;
   }
 
   .get-involved__grid article a,
   .explore__grid article a {
-    align-self: flex-end;
+    margin-top: 50px;
+  }
+
+  .get-involved__grid article h2,
+  .explore__grid article h2 {
+    min-height: 3em;
+    display: flex;
+    align-items: center;
+    
   }
 }
 
