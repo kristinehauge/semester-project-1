@@ -328,7 +328,7 @@ h1 {
 }
 
 /* --- Event --- */
-.event h2 {
+.event h2, .exhibitions h2 {
   text-transform: uppercase;
   font-family: var(--font-heading);
   letter-spacing: var(--letter-spacing-20);
@@ -336,6 +336,50 @@ h1 {
   font-size: 2.8rem;
   text-align: center;
   padding: 20px 40px;
+}
+
+
+/* --- Exhibitions --- */
+
+.exhibitions {
+  /*display: hide;*/
+}
+
+.info-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.exhibitions__img, 
+.info-card__text {
+  margin: 25px 65px;
+}
+
+.exhibitions__img {
+  width: 400px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-self: center;
+}
+
+.info-card__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-card__text p, 
+.info-card__text h3 {
+  width: 400px;
+  align-self: center;
+}
+
+.info-card__text div {
+  align-self: flex-end;
+  margin-top: 10px;
 }
 
 /* --- cards ---*/
