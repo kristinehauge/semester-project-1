@@ -353,9 +353,22 @@ h1 {
   justify-content: center;
 }
 
+.info-card__blue {
+  background-color: var(--secondary-color-25);
+}
+
+.info-card__text-reverse {
+  grid-column: 2;
+}
+
 .exhibitions__img, 
 .info-card__text {
   margin: 25px 65px;
+}
+
+.exhibitions__img-reverse {
+  grid-column: 1;
+  grid-row: 1;
 }
 
 .exhibitions__img {
@@ -375,6 +388,10 @@ h1 {
 .info-card__text h3 {
   width: 400px;
   align-self: center;
+}
+
+.info-card__text h3 {
+  font-size: 1.2em;
 }
 
 .info-card__text div {
