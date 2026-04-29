@@ -44,10 +44,6 @@
   }
 
   /* ------ Homepage ------ */
-
-  .hero {
-    
-  }
   
   .hero h1 {
     font-size: 4em;
@@ -151,7 +147,7 @@
 
   /* ------ Get Involved ------ */ /* ------ Explore ------ */
   .get-involved__grid,
-  .explore__grid {
+  /*.explore__grid*/ {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     max-width: 1000px;
@@ -160,21 +156,30 @@
   }
 
   .get-involved__grid article,
-  .explore__grid article {
+  /*.explore__grid article*/ {
     max-width: 300px;
     display: flex;
     flex-direction: column;
   }
 
   .get-involved__grid article a,
-  .explore__grid article a {
+  /*.explore__grid article a*/ {
     margin-top: 50px;
   }
 
   .get-involved__grid article h2,
-  .explore__grid article h2 {
+  /*.explore__grid article h2*/ {
     min-height: 3em;
     display: flex;
     align-items: center;
   }
+
+  .explore__grid {
+    
+  }
+
+  .explore__grid article {
+    max-width: 600px;
+  }
+
 }
