@@ -303,13 +303,13 @@ h1 {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  min-height: 75vh;
+  height: min(70vh, 600px);
+  overflow: hidden;
   max-width: 1000px;
   margin: 0 auto;
   text-align: center;
   display: grid;
-  gap: 50vh;
-  padding: 5x 0;
+  grid-template-rows: 1fr auto;
 }
 
 .hero h1 {
@@ -320,6 +320,7 @@ h1 {
 .hero p {
   font-size: 2rem;
   font-weight: var(--font-weight-medium);
+  align-content: end;
 }
 
 .hero span {
