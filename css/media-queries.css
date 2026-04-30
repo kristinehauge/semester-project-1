@@ -65,6 +65,24 @@
     margin: 0 auto;
   }
 
+  .exhibitions {
+  display: block;
+  }
+
+  .nav-card-grid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .row-span-3 {
+    grid-row: span 3;
+  }
+
+  .nav-card {
+    width: 350px;
+    height: 500px;
+  }
+
   /* ------ Footer ------ */
   footer {
     display: grid;

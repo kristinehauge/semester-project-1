@@ -169,12 +169,94 @@ a {
   background-color: transparent;
 }
 
+.nav-card-grid {
+  display: grid;
+}
+
 .img__exhibition {
   background-image: url(../assets/mavis-cw-164128.jpg);
 }
 
 .img__visit {
   background-image: url(../assets/scott-webb-102825.jpg);
+}
+
+/* --- cards ---*/
+
+.card {
+  background-color: var(--secondary-color-25);
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+  margin: 50px auto;
+}
+
+.card:hover {
+  background-color: var(--secondary-color-75);
+  border: 1px solid var(--secondary-color-100);
+}
+
+.card:hover .cta {
+  background-color: var(--primary-color-100);
+}
+
+.card h3 {
+  font-weight: var(--font-weight-medium);
+  font-size: 1.5rem;
+}
+
+.card h3,
+.card p {
+  padding: 0 20px;
+  letter-spacing: var(--letter-spacing-5);
+}
+
+.card .cta {
+  margin: 20px auto;
+}
+
+.card .card__img {
+  display: block;
+  aspect-ratio: 4/3;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img__space {
+  background-image: url(../assets/andrew-ruiz-348421.jpg);
+}
+
+.img__mammoth {
+  background-image: url(../assets/roberto-nickson-396152.jpg);
+  background-position: 50% 70%;
+}
+
+.img__energetica {
+  background-image: url(../assets/william-bout-264826.jpg);
+}
+
+.img__planets {
+  background-image: url(../assets/celso-405219.jpg);
+  background-position: center;
+}
+
+.img__skeleton {
+  background-image: url(../assets/mammoth-1257288_1920.jpg);
+}
+
+.img__brain {
+  background-image: url(../assets/jesse-orrico-60373.jpg);
+  background-position: 50% 90%;
+}
+
+.img__robot {
+  background-image: url(../assets/451f1d85-7f74-4606-9352-455b2d663409.webp);
+  background-position: center;
+}
+
+.img__plant {
+  background-image: url(../assets/jennifer-delmarre-IqmuHJF5khU-unsplash\ \(1\).jpg);
+  background-position: center;
 }
 
 /* ------------------------------------ Header ------------------------------------ */
@@ -342,7 +424,7 @@ h1 {
 /* --- Exhibitions --- */
 
 .exhibitions {
-  /*display: hide;*/
+  display: none;
 }
 
 .info-card {
@@ -397,84 +479,6 @@ h1 {
 .info-card__text div {
   align-self: flex-end;
   margin-top: 10px;
-}
-
-/* --- cards ---*/
-
-.card {
-  background-color: var(--secondary-color-25);
-  display: flex;
-  flex-direction: column;
-  max-width: 420px;
-  margin: 50px auto;
-}
-
-.card:hover {
-  background-color: var(--secondary-color-75);
-  border: 1px solid var(--secondary-color-100);
-}
-
-.card:hover .cta {
-  background-color: var(--primary-color-100);
-}
-
-.card h3 {
-  font-weight: var(--font-weight-medium);
-  font-size: 1.5rem;
-}
-
-.card h3,
-.card p {
-  padding: 0 20px;
-  letter-spacing: var(--letter-spacing-5);
-}
-
-.card .cta {
-  margin: 20px auto;
-}
-
-.card .card__img {
-  display: block;
-  aspect-ratio: 4/3;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.img__space {
-  background-image: url(../assets/andrew-ruiz-348421.jpg);
-}
-
-.img__mammoth {
-  background-image: url(../assets/roberto-nickson-396152.jpg);
-  background-position: 50% 70%;
-}
-
-.img__energetica {
-  background-image: url(../assets/william-bout-264826.jpg);
-}
-
-.img__planets {
-  background-image: url(../assets/celso-405219.jpg);
-  background-position: center;
-}
-
-.img__skeleton {
-  background-image: url(../assets/mammoth-1257288_1920.jpg);
-}
-
-.img__brain {
-  background-image: url(../assets/jesse-orrico-60373.jpg);
-  background-position: 50% 90%;
-}
-
-.img__robot {
-  background-image: url(../assets/451f1d85-7f74-4606-9352-455b2d663409.webp);
-  background-position: center;
-}
-
-.img__plant {
-  background-image: url(../assets/jennifer-delmarre-IqmuHJF5khU-unsplash\ \(1\).jpg);
-  background-position: center;
 }
 
 /* --- Star Club --- */
