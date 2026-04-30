@@ -71,16 +71,19 @@
 
   .nav-card-grid {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
   }
 
-  .row-span-3 {
-    grid-row: span 3;
+  .col-span-3 {
+    grid-column: span 3;
+    height: 250px;
   }
 
   .nav-card {
-    width: 350px;
-    height: 500px;
+    max-width: none;
+    width: 100%;
+    max-height: 500px;
   }
 
   /* ------ Footer ------ */
