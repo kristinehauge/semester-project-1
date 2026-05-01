@@ -192,14 +192,14 @@ a {
   margin: 50px auto;
 }
 
-.card:hover {
+/*.card:hover {
   background-color: var(--secondary-color-75);
   border: 1px solid var(--secondary-color-100);
 }
 
 .card:hover .cta {
   background-color: var(--primary-color-100);
-}
+}*/
 
 .card h3 {
   font-weight: var(--font-weight-medium);
