@@ -135,6 +135,7 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   border: 2px solid var(--background-color);
+  width: 100%;
   height: 500px;
   max-width: 400px;
   margin: 0 auto;
@@ -410,7 +411,8 @@ h1 {
 }
 
 /* --- Event --- */
-.event h2, .exhibitions h2 {
+.event h2,
+.exhibitions h2 {
   text-transform: uppercase;
   font-family: var(--font-heading);
   letter-spacing: var(--letter-spacing-20);
@@ -419,7 +421,6 @@ h1 {
   text-align: center;
   padding: 20px 40px;
 }
-
 
 /* --- Exhibitions --- */
 
@@ -443,7 +444,7 @@ h1 {
   grid-column: 2;
 }
 
-.exhibitions__img, 
+.exhibitions__img,
 .info-card__text {
   margin: 25px 65px;
 }
@@ -466,7 +467,7 @@ h1 {
   flex-direction: column;
 }
 
-.info-card__text p, 
+.info-card__text p,
 .info-card__text h3 {
   width: 400px;
   align-self: center;
