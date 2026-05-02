@@ -82,8 +82,14 @@ a {
   font-size: 1.2rem;
 }
 
-.cta-yellow {
+/*.cta-yellow {
   background-color: var(--primary-color-75);
+  border: 1px solid var(--primary-color-border);
+  font-weight: var(--font-weight-bold);
+}*/
+
+.cta-yellow {
+  background-color: var(--primary-color-100);
   border: 1px solid var(--primary-color-border);
   font-weight: var(--font-weight-bold);
 }
@@ -93,11 +99,6 @@ a {
   color: var(--primary-color-100);
   font-weight: var(--font-weight-semibold);
   font-size: 1.2rem;
-}
-
-.cta-yellow:hover {
-  background-color: var(--primary-color-100);
-  border: 1px solid var(--primary-color-100);
 }
 
 .cta-blue:hover {
@@ -212,6 +213,15 @@ a {
   aspect-ratio: 4/3;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.card:hover {
+  background-color: var(--secondary-color-75);
+  border: 1px solid var(--secondary-color-100);
+}
+
+.card:hover .cta {
+  background-color: var(--primary-color-100);
 }
 
 .img__space {

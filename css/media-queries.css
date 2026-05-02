@@ -1,15 +1,15 @@
-@media (hover: hover) {
-  .card:hover {
-    background-color: var(--secondary-color-75);
-    border: 1px solid var(--secondary-color-100);
-  }
-
-  .card:hover .cta {
-    background-color: var(--primary-color-100);
-  }
-}
-
 @media (min-width: 1000px) {
+  /* ------  Links ------ */
+  .cta-yellow {
+    border: 1px solid var(--primary-color-border);
+    font-weight: var(--font-weight-bold);
+  }
+
+  .cta-yellow:hover {
+    background-color: var(--primary-color-100);
+    border: 1px solid var(--primary-color-100);
+  }
+
   /* ------ Header ------ */
 
   .header nav {

@@ -1,3 +1,9 @@
+.visit__grid,
+.explore__grid,
+.get-involved__grid {
+  margin: 0 20px;
+}
+
 /* ------------------------------------ Visit ------------------------------------ */
 .page__header {
   color: var(--light-text-color);
@@ -61,6 +67,7 @@ iframe {
   color: var(--text-icon-color);
   font-family: var(--font-body);
   font-weight: var(--font-weight-light);
+  margin: 0;
 }
 
 .footer__location-link:hover {
