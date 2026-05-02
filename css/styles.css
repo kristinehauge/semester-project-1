@@ -560,6 +560,7 @@ footer p {
   display: flex;
   color: var(--text-icon-color);
   font-weight: var(--font-weight-light);
+  padding: 2px 0;
 }
 
 .footer__links a:hover {
