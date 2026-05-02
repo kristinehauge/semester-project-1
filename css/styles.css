@@ -429,6 +429,11 @@ h1 {
   display: none;
 }
 
+.exhibitions h3 {
+  letter-spacing: var(--letter-spacing-5);
+  font-weight: var(--font-weight-medium);
+}
+
 .info-card {
   display: grid;
   grid-template-columns: 1fr 1fr;
