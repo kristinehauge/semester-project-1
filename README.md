@@ -1,8 +1,14 @@
-# semester-project-1
-This is a repository for the Semester Project 1. 
+## Community Science Museum
 
-README files typically include information on:
+A website for the Community Science Museum that showcases interactive exhibits and provides information for visitors.
 
-What the project does
-Why the project is useful
-Who maintains and contributes to the project
+The goal of this project was to create an accessible and engaging website that encourages interest in sciences and inspires teenagers and families to explore the museum in person.
+
+## Built with
+
+- HTML
+- CSS
+
+## Maintained and Built by
+
+Kristine Sekkingstad Hauge
