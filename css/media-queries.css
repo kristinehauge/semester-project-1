@@ -12,6 +12,10 @@
     border: 1px solid var(--primary-color-100);
   }
 
+  .nav-card--hide {
+    display: flex;
+  }
+
   /* ------ Header ------ */
 
   .header nav {
