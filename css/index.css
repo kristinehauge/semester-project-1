@@ -1,0 +1,140 @@
+/* ------------------------------------ Homepage ------------------------------------ */
+
+h1 {
+  font-family: var(--font-heading);
+}
+
+.hero {
+  color: var(--primary-color-100);
+  text-shadow: 1px 2px 2px var(--secondary-color-shadow);
+  text-transform: uppercase;
+  background-image:
+    linear-gradient(rgba(32, 55, 64, 0.1)),
+    url(../assets/5c786ec9-3ad6-44db-b919-ba79a905b6be.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: min(70vh, 600px);
+  overflow: hidden;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.hero h1 {
+  font-weight: var(--font-weight-black);
+  font-size: 2.5em;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  font-weight: var(--font-weight-medium);
+  align-content: end;
+}
+
+.hero span {
+  font-weight: var(--font-weight-bold);
+}
+
+/* --- Event --- */
+.event h2,
+.exhibitions h2 {
+  text-transform: uppercase;
+  font-family: var(--font-heading);
+  letter-spacing: var(--letter-spacing-20);
+  font-weight: var(--font-weight-extrabold);
+  font-size: 2.8rem;
+  text-align: center;
+  padding: 20px 40px;
+}
+
+/* --- Exhibitions --- */
+
+.exhibitions,
+.nav-card--hide {
+  display: none;
+}
+
+.exhibitions h3 {
+  letter-spacing: var(--letter-spacing-5);
+  font-weight: var(--font-weight-medium);
+}
+
+.info-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1000px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.info-card__blue {
+  background-color: var(--secondary-color-25);
+}
+
+.info-card__text-reverse {
+  grid-column: 2;
+}
+
+.exhibitions__img,
+.info-card__text {
+  margin: 25px 65px;
+}
+
+.exhibitions__img-reverse {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.exhibitions__img {
+  width: 400px;
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-self: center;
+}
+
+.info-card__text {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-card__text p,
+.info-card__text h3 {
+  width: 400px;
+  align-self: center;
+}
+
+.info-card__text h3 {
+  font-size: 1.2em;
+}
+
+.info-card__text div {
+  align-self: flex-end;
+  margin-top: 10px;
+}
+
+/* --- Star Club --- */
+
+.star-club {
+  background-color: var(--primary-color-100);
+  font-family: var(--font-heading);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.star-club p {
+  text-align: center;
+}
+
+.star-club .cta-blue {
+  margin-top: 10px;
+}
