@@ -1,3 +1,5 @@
+@import url("variables.css");
+
 @media (min-width: 1000px) {
   /* ------  Links ------ */
   .cta-yellow {
@@ -93,7 +95,7 @@
     max-height: 500px;
   }
 
-  .back-to-top {
+  .back-to-top--index {
     margin-top: 0;
   }
 
