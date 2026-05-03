@@ -177,6 +177,10 @@ a {
   display: grid;
 }
 
+.nav-card--hide {
+  display: none;
+}
+
 .img__exhibition {
   background-image: url(../assets/mavis-cw-164128.jpg);
 }

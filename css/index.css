@@ -52,8 +52,7 @@ h1 {
 
 /* --- Exhibitions --- */
 
-.exhibitions,
-.nav-card--hide {
+.exhibitions {
   display: none;
 }
 
