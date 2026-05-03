@@ -1,5 +1,6 @@
 @import url("variables.css");
 @import url("pages.css");
+@import url("header.css");
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=swap");
 
 /* --------------------------------------- Universal ---------------------------------------*/
@@ -261,116 +262,6 @@ a {
 .img__plant {
   background-image: url(../assets/jennifer-delmarre-IqmuHJF5khU-unsplash\ \(1\).jpg);
   background-position: center;
-}
-
-/* ------------------------------------ Header ------------------------------------ */
-
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  height: 100px;
-  padding: 20px;
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.hamburger-menu {
-  display: none;
-}
-
-header nav {
-  position: absolute;
-  top: 100px;
-  left: 0;
-  right: 0;
-  height: 100%;
-  z-index: 1000;
-  background-color: var(--background-color);
-  padding-left: 2em;
-  display: none;
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav li {
-  margin-bottom: 0.9em;
-}
-
-nav a {
-  color: var(--text-icon-color);
-  text-transform: uppercase;
-  font-weight: var(--font-weight-semibold);
-  font-size: 1.4rem;
-}
-
-nav a:hover {
-  text-decoration: underline;
-}
-
-.hamburger-menu:checked ~ nav {
-  display: block;
-}
-
-.logo {
-  width: 90px;
-  height: 90px;
-}
-
-.fas {
-  font-size: 3.5em;
-  color: var(--text-icon-color);
-}
-
-.menu-open-hours {
-  text-transform: uppercase;
-  color: var(--primary-color-100);
-  font-size: 1.9em;
-  font-weight: var(--font-weight-semibold);
-}
-
-.menu-open-hours span {
-  font-weight: var(--font-weight-bold);
-}
-
-.search {
-  margin: 50px 0;
-}
-
-.site-search {
-  border: none;
-  font-family: var(--font-body);
-  letter-spacing: var(--letter-spacing-10);
-  width: 200px;
-  color: var(--gray-color);
-  background-color: var(--background-color);
-}
-
-.site-search:focus {
-  outline: none;
-}
-
-button {
-  border: none;
-  background-color: var(--background-color);
-}
-
-hr {
-  width: 240px;
-  margin: 5px 0;
-  color: var(--text-icon-color);
-}
-
-.menu h2 {
-  text-transform: uppercase;
-  font-family: var(--font-body);
-  font-weight: var(--font-weight-medium);
-  font-size: 1.2em;
 }
 
 /* ------------------------------------ Homepage ------------------------------------ */
