@@ -37,4 +37,5 @@ Outcome: Improved responsiveness and fixed height-related layout problems
 
 Tool used: ChatGPT  
 Date: 01 May 2026  
-Purpose: Troubleshooting responsiveness issues with navigation cards on mobile Outcome: Improved mobile layout and ensured navigation cards display correctly on smaller screens
+Purpose: Troubleshooting responsiveness issues with navigation cards on mobile
+Outcome: Improved mobile layout and ensured navigation cards display correctly on smaller screens
