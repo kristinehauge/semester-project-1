@@ -105,6 +105,15 @@
   .visit__shop {
     grid-column-start: 1;
   }
+
+  /* ------ Exhibitions & Events ------ */
+  .exhibitions-page,
+  .events-page {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1000px;
+    margin: 50px auto;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -225,14 +234,5 @@
 
   .explore__grid article {
     max-width: 600px;
-  }
-
-  /* ------ Exhibitions ------ */
-  .exhibitions-page,
-  .events-page {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 1000px;
-    margin: 50px auto;
   }
 }
