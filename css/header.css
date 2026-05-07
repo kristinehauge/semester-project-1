@@ -20,7 +20,7 @@ header nav {
   top: 100px;
   /*left: 0;*/
   right: 0;
-  width: 100%;
+  width: 450px;
   height: 100%;
   z-index: 1000;
   background-color: var(--background-color);
