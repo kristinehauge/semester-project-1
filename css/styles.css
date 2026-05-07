@@ -274,11 +274,16 @@ a {
   align-items: center;
   justify-content: center;
   padding: 20px;
+  margin-top: 150px;
   color: var(--text-icon-color);
   text-transform: uppercase;
   font-weight: var(--font-weight-semibold);
   font-size: 1.5rem;
   gap: 20px;
+}
+
+.back-to-top--index {
+  margin-top: 0;
 }
 
 footer {
