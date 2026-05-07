@@ -207,7 +207,7 @@ a {
 }
 
 .card .cta {
-  margin: 20px auto;
+  margin: 30px auto;
 }
 
 .card .card__img {
@@ -274,7 +274,6 @@ a {
   align-items: center;
   justify-content: center;
   padding: 20px;
-  margin-top: 150px;
   color: var(--text-icon-color);
   text-transform: uppercase;
   font-weight: var(--font-weight-semibold);
