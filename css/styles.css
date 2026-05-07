@@ -84,12 +84,6 @@ a {
   font-size: 1.2rem;
 }
 
-/*.cta-yellow {
-  background-color: var(--primary-color-75);
-  border: 1px solid var(--primary-color-border);
-  font-weight: var(--font-weight-bold);
-}*/
-
 .cta-yellow {
   background-color: var(--primary-color-100);
   border: 1px solid var(--primary-color-border);
