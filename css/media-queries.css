@@ -1,5 +1,23 @@
 @import url("variables.css");
 
+@media (min-width: 800px) {
+  .nav-card-grid {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .col-span-3 {
+    grid-column: span 3;
+    height: 250px;
+  }
+
+  .nav-card {
+    max-width: none;
+    max-height: 500px;
+  }
+}
+
 @media (min-width: 1000px) {
   /* ------  Links ------ */
   .cta-yellow {
@@ -83,22 +101,6 @@
 
   .exhibitions {
     display: block;
-  }
-
-  .nav-card-grid {
-    grid-template-columns: repeat(3, 1fr);
-    max-width: 1000px;
-    margin: 0 auto;
-  }
-
-  .col-span-3 {
-    grid-column: span 3;
-    height: 250px;
-  }
-
-  .nav-card {
-    max-width: none;
-    max-height: 500px;
   }
 
   .back-to-top--index {
