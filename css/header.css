@@ -18,13 +18,18 @@
 header nav {
   position: absolute;
   top: 100px;
-  left: 0;
+  /*left: 0;*/
   right: 0;
+  width: 100%;
   height: 100%;
   z-index: 1000;
   background-color: var(--background-color);
-  padding-left: 2em;
+  padding-right: 2em;
   display: none;
+
+  /*display: flex;*/
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 nav ul {
@@ -35,6 +40,11 @@ nav ul {
 
 nav li {
   margin-bottom: 0.9em;
+}
+
+nav li,
+nav h2 {
+  text-align: right;
 }
 
 nav a {
@@ -49,7 +59,7 @@ nav a:hover {
 }
 
 .hamburger-menu:checked ~ nav {
-  display: block;
+  display: flex;
 }
 
 .logo {
