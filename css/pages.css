@@ -54,7 +54,12 @@ article ul {
   font-weight: var(--font-weight-light);
 }
 
-article span {
+article ul li {
+  margin: 5px 0;
+}
+
+article span,
+.footer-info span {
   font-weight: var(--font-weight-medium);
 }
 
