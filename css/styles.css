@@ -21,6 +21,7 @@ body {
 p {
   font-weight: var(--font-weight-light);
   font-family: var(--font-body);
+  font-size: 1rem;
 }
 
 article {
@@ -42,7 +43,7 @@ article h2 {
   text-transform: uppercase;
   font-weight: var(--font-weight-medium);
   letter-spacing: var(--letter-spacing-10);
-  font-size: 1.1em;
+  font-size: 1.3rem;
 }
 
 img {
@@ -52,6 +53,22 @@ img {
 h1,
 a {
   letter-spacing: var(--letter-spacing-5);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+}
+
+h3 {
+ font-size: 2.074rem; 
+}
+
+h4 {
+  font-size: 1.728rem;
 }
 
 /* ------------------------------------ Links ------------------------------------ */
@@ -189,8 +206,9 @@ a {
   background-color: var(--secondary-color-25);
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   max-width: 400px;
-  margin: 50px auto;
+  margin: 30px auto;
 }
 
 .card h3,
@@ -302,7 +320,7 @@ footer {
 
 footer h2 {
   font-weight: var(--font-weight-medium);
-  font-size: 1rem;
+  font-size: 1.1rem;
   letter-spacing: var(--letter-spacing-10);
   text-transform: uppercase;
 }

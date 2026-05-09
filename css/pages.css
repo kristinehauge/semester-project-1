@@ -38,7 +38,7 @@
 .page__header h1 {
   font-weight: var(--font-weight-extrabold);
   letter-spacing: var(--letter-spacing-20);
-  font-size: clamp(2.8rem, 10vw, 4.5rem);
+  font-size: clamp(2.8rem, 7vw, 4.5rem);
   z-index: 1;
 }
 

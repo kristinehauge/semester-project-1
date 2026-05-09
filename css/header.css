@@ -18,18 +18,15 @@
 header nav {
   position: absolute;
   top: 100px;
-  /*left: 0;*/
   right: 0;
-  width: 450px;
+  width: 100%;
   height: 100%;
   z-index: 1000;
   background-color: var(--background-color);
-  padding-right: 2em;
+  padding: 0 3.5em;
   display: none;
-
-  /*display: flex;*/
   flex-direction: column;
-  align-items: flex-end;
+  align-items: flex-start;
 }
 
 nav ul {
@@ -44,7 +41,7 @@ nav li {
 
 nav li,
 nav h2 {
-  text-align: right;
+  text-align: left;
 }
 
 nav a {
