@@ -1,9 +1,5 @@
 /* ------------------------------------ Homepage ------------------------------------ */
 
-h1 {
-  font-family: var(--font-heading);
-}
-
 .hero {
   color: var(--primary-color-100);
   text-shadow: 1px 2px 2px var(--secondary-color-shadow);
